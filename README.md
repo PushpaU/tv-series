@@ -1,16 +1,25 @@
-# tv_application
+**TV Series Application using flutter :**
 
-A new Flutter project.
+**Features**
+**1.Popular TV Shows**
+Displayed as a carousel, allowing users to browse through the most popular TV shows effortlessly.
 
-## Getting Started
+**2.Top Rated Shows**
+Presented in a ListView format for easy viewing of the top-rated series.
 
-This project is a starting point for a Flutter application.
+**3.Detailed Series Information**
+Upon selecting a specific series, users are navigated to the details page.
+The details page provides comprehensive information about the selected series, including:
+Name
+Overview
+First air date
+Rating
+Number of episodes
+Additional relevant details
 
-A few resources to get you started if this is your first Flutter project:
+**4.Search Functionality**
+A search bar is available on the home screen to filter and find series quickly.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**5.Loading and Error Handling**
+A CircularProgressIndicator is displayed while data is loading.
+Robust error handling is implemented to ensure that any API errors are shown on the UI, providing a seamless user experience.
