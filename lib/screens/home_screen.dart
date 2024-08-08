@@ -56,6 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child:FutureBuilder(
                     future:trendingSeries,
                     builder:(context,snapshot){
+                         //Handling Loading and error 
                         if(snapshot.hasError){
                             return Center(
                                 child:Text(snapshot.error.toString()),
@@ -66,6 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             return  TrendingSlider(snapshot:snapshot);
                         }
                         else{
+                           
                             return const Center(child:CircularProgressIndicator());
                         }
 
@@ -87,6 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height:20),
             SizedBox(
                 child:FutureBuilder(
+                     //Handling Loading and error 
                     future:topRatedSeries,
                     builder:(context,snapshot){
                         if(snapshot.hasError){
