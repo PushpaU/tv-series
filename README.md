@@ -23,3 +23,7 @@ A search bar is available on the home screen to filter and find series quickly.
 **5.Loading and Error Handling**
 A CircularProgressIndicator is displayed while data is loading.
 Robust error handling is implemented to ensure that any API errors are shown on the UI, providing a seamless user experience.
+
+ScreenShots : 
+![image](https://github.com/user-attachments/assets/db79a6cb-5507-4e5e-ad15-256e3e1070e4)
+![image](https://github.com/user-attachments/assets/deb3442d-15dd-4bde-838e-c17718e0c7ae)
